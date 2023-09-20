@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+/supabase
+/supabase/**
+
 # testing
 /coverage
 
@@ -41,9 +44,17 @@ next-env.d.ts
 /**.**
 **.**
 
+
+next.config.js
+package.json
+
+
 # Except for the themes directories:
 
 !app/server-and-drilling/**
 !app/server-and-drilling-and-react-query/**
 !app/server-and-react-query/**
 !lib/**
+!tree.jpg
+
+.**
