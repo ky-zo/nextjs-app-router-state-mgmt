@@ -33,3 +33,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore everything:
+**.**
+
+# Except for the themes directories:
+
+!app/server-and-drilling/**
+!app/server-and-drilling-and-react-query/**
+!app/server-and-react-query/**
