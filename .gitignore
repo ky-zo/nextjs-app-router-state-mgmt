@@ -35,6 +35,10 @@ yarn-error.log*
 next-env.d.ts
 
 # Ignore everything:
+/app/auth
+/app/auth/**
+/supabase
+/**.**
 **.**
 
 # Except for the themes directories:
@@ -42,3 +46,4 @@ next-env.d.ts
 !app/server-and-drilling/**
 !app/server-and-drilling-and-react-query/**
 !app/server-and-react-query/**
+!lib/**
