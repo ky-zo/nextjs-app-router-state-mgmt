@@ -1,6 +1,6 @@
 "use client";
 
-import { useUser } from "../states/user-state";
+import { useUser } from "@/states/user-state";
 
 const ClientMenuBar = () => {
   const { data: user } = useUser();
